@@ -587,7 +587,7 @@
 		 
 		 $css	=	'';
 		 
-		 if(!is_array($style)) {	echo 'fail';	return false;	}
+		 if(!is_array($style)) { return false;	}
 		 
 		 // read style and strip whitespaces
 		 foreach($style as $line) {
